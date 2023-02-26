@@ -1,3 +1,115 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital@0;1&display=swap');
+
+
+* {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+
+
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+
+  #journey .slick-dots {
+    top: 500px;
+  }
+
+  #journey .slick-dots li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#journey-about .slick-dots {
+  top: 620px;
+}
+
+#journey-about .slick-dots li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1900px) { 
+  #journey .slick-dots {
+    top: 525px;
+  }
+
+  #journey .slick-dots li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+  
+
+  #journey .slick-dots {
+    top: 110%;
+  }
+
+  #journey-about .slick-dots {
+    top: 110%;
+  }
+  
+  
+}

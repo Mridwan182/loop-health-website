@@ -38,15 +38,15 @@ const MainNavbar = (props: any) =>  {
                     alt=""
                   />
                 </a>
-                <a
+                {/* <a
                   className="nav-text text-lg font-semibold leading-6 mx-0 lg:mx-5 my-4 lg:my-0 relative active text-black"
                   href="/about"
                 >
                   Pengalaman Dari Loop
-                </a>
+                </a> */}
                 <a
                   className="nav-text text-lg font-semibold leading-6 mx-0 lg:mx-5 my-4 lg:my-0 relative active text-black"
-                  href="/about"
+                  href="/about-us"
                 >
                   Tentang Loop
                 </a>
@@ -75,7 +75,7 @@ const MainNavbar = (props: any) =>  {
                 </svg>
               </nav>
               <div className="hidden lg:inline-flex">
-              <button className="inline-flex font-light text-lg leading-7 py-3 px-10 focus:outline-none bg-green-100 text-white font-semibold rounded-xl">
+              <button className="inline-flex text-xl focus:outline-none bg-green-100 text-white font-bold rounded-2xl 3xl:px-16 3xl:py-4 2xl:px-20 2xl:py-3 xl:px-16 xl:py-3  lg:px-12 lg:py-3">
                 Request Demo
               </button>
             </div>

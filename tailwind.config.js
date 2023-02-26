@@ -2,6 +2,17 @@
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      mxl: '1024px',
+      xl: '1440px',
+      '2xl': '1600px',
+      '3xl':'1920px',
+      '4xl': '2300px',
+      '5xl': '2560px'
+    },
     fontSize: {
       xs: '0.75rem',
       sm: '0.875rem',
@@ -46,7 +57,20 @@ module.exports = {
         },
         lightblue: {
           100: '#D3EAFE',
-          200: '#F2F9FF'
+          200: '#F2F9FF',
+          300: '#B0D7F9'
+        },
+        orange: {
+          100: '#FFF1E7',
+          200: '#FF9988'
+        },
+        purple: {
+          100: '#E5F3FF',
+          200: '#5F6FB1'
+        },
+        lightgreen:{
+          100: '#E4F4F4',
+          200: '#41BFB9'
         }
       },
     },

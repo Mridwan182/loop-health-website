@@ -22,11 +22,15 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@types/react-slick": "^0.23.10",
     "next": "^13.1.6",
     "next-seo": "^5.15.0",
     "next-sitemap": "^3.1.52",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.3",
