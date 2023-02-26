@@ -33,7 +33,7 @@ const StartNow = (props: any) =>  {
           md:hidden
           lg:block lg:absolute lg:right-0 lg:h-[1200px] lg:-bottom-[168rem] 
           xl:block xl:absolute xl:right-0 xl:h-[1200px] xl:-bottom-[165rem] 
-          3xl:block 3xl:absolute 3xl:right-0 3xl:h-[1600px] 3xl:-bottom-[175rem] 
+          3xl:block 3xl:absolute 3xl:right-0 3xl:h-[1550px] 3xl:-bottom-[170rem] 
           4xl:block 4xl:absolute 4xl:right-0 4xl:h-[1600px] 4xl:-bottom-[180rem] 
           5xl:bloxk 5xl:right-0 5xl:h-[1600px] 5xl:-bottom-[190rem] 
           "

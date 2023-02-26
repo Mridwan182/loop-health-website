@@ -8,7 +8,7 @@ const About = () => (
   <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
       <MainNavbar />
       <HeaderPanel title="Disclaimer"/>
-      <div className="mx-auto flex flex-col py-20 lg:px-24 md:px-16 sm:px-8 px-8 font-light">
+      <div className="mx-auto flex flex-col py-20 lg:px-24 md:px-16 sm:px-8 px-8 font-light text-sm md:text-md xl:text-xl lg:text-lg">
           Platform ini dimiliki dan dikelola oleh PT Loop Health Indonesia Anda bisa merujuk kepada isi di dalamnya untuk kebutuhan Anda dan mengunduhnya, hanya untuk kepentingan pribadi. Anda tidak diperkenankan untuk memodifikasi dan membagikannya untuk tujuan komersial. 
           Termasuk di dalamnya adalah ikon, logo, foto, maupun ilustrasi, tanpa izin tertulis dari PT Loop Health Indonesia. <br/><br/><br/>
 

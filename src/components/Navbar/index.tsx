@@ -1,8 +1,10 @@
 import router, { useRouter } from 'next/router';
+import React, { useState } from 'react';
 
 
 const MainNavbar = (props: any) =>  {
   const router = useRouter()
+  const [show, setShow] = useState(false)
 
   return (
     <header>
@@ -13,7 +15,7 @@ const MainNavbar = (props: any) =>  {
            src={`${router.basePath}/assets/logo/logo.webp`}
            alt="" />
        </a>
-       <div className="flex mr-0 lg:hidden cursor-pointer">
+       <div className="flex mr-0 lg:hidden cursor-pointer" onClick={() => setShow(!show)}>
           <svg
             className="w-6 h-6"
             fill="none"
@@ -29,11 +31,12 @@ const MainNavbar = (props: any) =>  {
             />
           </svg>
         </div>
-        <div className="bg-black fixed w-full hidden h-full top-0 left-0 z-30 bg-opacity-60"></div>
-        <nav className="navigation lg:mr-auto hidden lg:flex flex-col text-base justify-center z-50 fixed top-8 left-12 right-3 p-8 rounded-md shadow-md bg-white lg:flex lg:flex-row lg:relative lg:top-0 lg:shadow-none lg:bg-transparent lg:p-0 lg:items-center items-start">
+        <div  className={show ? "block bg-black fixed w-full h-full top-0 left-0 z-30 bg-opacity-60" : "hidden bg-black fixed w-full h-full top-0 left-0 z-30 bg-opacity-60" }
+            onClick={() => setShow(!show)}></div>
+        <nav className={show ? "flex navigation lg:mr-auto lg:flex flex-col text-base justify-center z-50 fixed top-8 left-3 right-3 p-8 rounded-md shadow-md bg-white lg:flex lg:flex-row lg:relative lg:top-0 lg:shadow-none lg:bg-transparent lg:p-0 lg:items-center items-start" : "hidden navigation lg:mr-auto hidden lg:flex flex-col text-base justify-center z-50 fixed top-8 left-3 right-3 p-8 rounded-md shadow-md bg-white lg:flex lg:flex-row lg:relative lg:top-0 lg:shadow-none lg:bg-transparent lg:p-0 lg:items-center items-start"}>
                 <a href="#">
                   <img
-                    className="m-0 lg:hidden mb-3 h-8"
+                    className="m-0 lg:hidden mb-3 h-10"
                     src={`${router.basePath}/assets/logo/logo.webp`}
                     alt=""
                   />
@@ -51,13 +54,12 @@ const MainNavbar = (props: any) =>  {
                   Tentang Loop
                 </a>
               
-                <div className="flex items-center justify-end w-full lg:hidden mt-3">
-                  <button className="text-black font-light py-3 px-8 focus:outline-none">
-                    Log In
-                  </button>
-                  <button className="btn-try text-white text-lg py-3 px-8 rounded-xl focus:outline-none hover:shadow-lg font-semibold">
-                    Try Now
-                  </button>
+                <div className="w-full lg:hidden mt-3">
+                  <div className="w-full">
+                  <button className="inline-flex text-xl focus:outline-none bg-green-100 text-white font-bold rounded-lg text-center px-6 py-2 w-[100%] justify-center">
+                Request Demo
+              </button>
+                  </div>
                 </div>
                 <svg
                   className="w-6 h-6 absolute top-4 right-4 lg:hidden cursor-pointer"
@@ -65,6 +67,7 @@ const MainNavbar = (props: any) =>  {
                   stroke="currentColor"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
+                  onClick={() => setShow(!show)}
                 >
                   <path
                     strokeLinecap="round"
