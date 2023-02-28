@@ -7,8 +7,8 @@ import React from 'react';
 
 const TermsCondition = () => (
   <Main meta={
-      <Meta title="loophealth - Syarat & Ketentuan" 
-      description="loophealth - Syarat & Ketentuan" />}>
+      <Meta title="Loop Health - Terms & Condition" 
+      description="Loop Health - Terms & Condition" />}>
       <MainNavbar />
       <HeaderPanel title="Syarat & Ketentuan"/>
       <div className="mx-auto flex flex-col py-20 lg:px-24 md:px-16 sm:px-8 px-8 mb-40 font-light text-sm md:text-md xl:text-xl lg:text-lg">

@@ -16,8 +16,10 @@ const Index = () => {
     <Main
       meta={
         <Meta
-          title="Loop Health"
-          description="loophealth"
+          title="Loop Health - Home"
+          description="
+          Di Loop, kami percaya dalam memberikan kekuatan kepada orang untuk membuat perubahan positif yang berlangsung lama dalam kesehatan mereka melalui modifikasi perilaku dan gaya hidup. Kami bangga menjadi mitra dalam perjalanan ini dan berkomitmen untuk membantu klien kami mencapai peningkatan kesehatan nyata dan penghematan biaya melalui program virtual care kami.
+          "
         />
       }
     >

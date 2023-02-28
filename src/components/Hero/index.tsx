@@ -8,6 +8,18 @@ const Hero = (props: any) =>  {
     <div>
     <div className="mx-auto flex pt-12 pb-16 lg:pb-20 lg:px-24 md:px-16 sm:px-8 px-8 lg:flex-row flex-col">
       {/* Left Column */}
+
+      <div className="w-full lg:w-1/2 text-center justify-center flex pr-0 block md:hidden">
+        <div className="">
+            <img
+              id="hero"
+              className="lg:h-[85%] lg:w-[100%] xl:h-[90%] xl:w-[55%] 2xl:h-[80%] 2xl:w-[45%] xl:w-4/6 xl:absolute 2xl:absolute 3xl:absolute xl:top-[2%] top-[6px] xl:right-3 2xl:right-4 3xl:right-24 text-center" 
+              style={{zIndex: -12}}
+              src={`${router.basePath}/assets/images/hero-content.webp`}
+              alt=""
+            />
+        </div>
+      </div>
       <div className="lg:flex-grow lg:w-1/2 flex flex-col lg:items-start lg:text-left mb-3 md:mb-12 lg:mb-0 items-center text-center">
         <h2 className="my-5 lg:text-5xl text-4xl text-darkblue-100 font-normal">
               <span className="font-bold text-darkblue-100">Your</span> Everyday Diabetes <span className="font-bold text-darkblue-100">Coach</span>
@@ -20,17 +32,17 @@ const Hero = (props: any) =>  {
             mencapai peningkatan kesehatan nyata dan penghematan biaya melalui program virtual care kami.
         </p>
         <div className="inline-block items-center mx-auto lg:mx-0 lg:flex justify-center lg:space-x-8 md:space-x-2 sm:space-x-3 space-x-0">
-          <button className="btn-fill 
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9itbfQqhSbJarPRmDWwV2QVbopE1AnVdT9MkWPK-JhVXeWQ/viewform?vc=0&c=0&w=1&flr=0" target="_blank" className="btn-fill 
           inline-flex font-bold text-white 
           text-base 
           py-4
           px-16 rounded-2xl mb-4 lg:mb-0 md:mb-0 focus:outline-none hover:shadow-lg bg-green-100 text-[20px] mt-5">
             Request Demo
-          </button>
+          </a>
         </div>
       </div>
       {/* Right Column */}
-      <div className="w-full lg:w-1/2 text-center justify-center flex pr-0">
+      <div className="w-full lg:w-1/2 text-center justify-center flex pr-0 hidden md:block">
         <div className="">
             <img
               id="hero"

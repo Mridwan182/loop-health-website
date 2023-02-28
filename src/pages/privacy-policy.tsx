@@ -7,8 +7,8 @@ import { Main } from '@/templates/Main';
 const About = () => (
   <Main meta={
     <Meta 
-    title="Privacy Policy" 
-    description="Lorem ipsum" />
+    title="Loop Health - Privacy Policy" 
+    description="Loop Health - Privacy Policy" />
   }>
       <MainNavbar />
       <HeaderPanel title="Kebijakan Privasi"/>

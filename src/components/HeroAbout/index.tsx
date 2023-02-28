@@ -21,9 +21,9 @@ const HeroAbout = (props: any) =>  {
             mencapai peningkatan kesehatan nyata dan penghematan biaya melalui program virtual care kami.
         </p>
         <div className="inline-block items-center mx-auto lg:mx-0 lg:flex justify-center lg:space-x-8 md:space-x-2 sm:space-x-3 space-x-0">
-          <button className="btn-fill inline-flex font-semibold text-white text-base py-4 px-14 rounded-2xl mb-4 lg:mb-0 md:mb-0 focus:outline-none hover:shadow-lg bg-green-100">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9itbfQqhSbJarPRmDWwV2QVbopE1AnVdT9MkWPK-JhVXeWQ/viewform?vc=0&c=0&w=1&flr=0" target="_blank" className="btn-fill inline-flex font-semibold text-white text-base py-4 px-14 rounded-2xl mb-4 lg:mb-0 md:mb-0 focus:outline-none hover:shadow-lg bg-green-100">
             Request Demo
-          </button>
+          </a>
         </div>
       </div>
       {/* Right Column */}

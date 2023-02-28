@@ -48,7 +48,7 @@ const MainNavbar = (props: any) =>  {
                   Pengalaman Dari Loop
                 </a> */}
                 <a
-                  className="nav-text text-lg font-semibold leading-6 mx-0 lg:mx-5 my-4 lg:my-0 relative active text-black"
+                  className="nav-text text-lg font-semibold leading-6 mx-0 lg:mx-5 my-4 lg:my-0 relative active text-black hover:text-lightgreen-200"
                   href="/about-us"
                 >
                   Tentang Loop
@@ -56,9 +56,9 @@ const MainNavbar = (props: any) =>  {
               
                 <div className="w-full lg:hidden mt-3">
                   <div className="w-full">
-                  <button className="inline-flex text-xl focus:outline-none bg-green-100 text-white font-bold rounded-lg text-center px-6 py-2 w-[100%] justify-center">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9itbfQqhSbJarPRmDWwV2QVbopE1AnVdT9MkWPK-JhVXeWQ/viewform?vc=0&c=0&w=1&flr=0" target="_blank" className="inline-flex text-xl focus:outline-none bg-green-100 text-white font-bold rounded-lg text-center px-6 py-2 w-[100%] justify-center">
                 Request Demo
-              </button>
+              </a>
                   </div>
                 </div>
                 <svg
@@ -78,9 +78,9 @@ const MainNavbar = (props: any) =>  {
                 </svg>
               </nav>
               <div className="hidden lg:inline-flex">
-              <button className="inline-flex text-xl focus:outline-none bg-green-100 text-white font-bold rounded-2xl 3xl:px-16 3xl:py-4 2xl:px-20 2xl:py-3 xl:px-16 xl:py-3  lg:px-12 lg:py-3">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9itbfQqhSbJarPRmDWwV2QVbopE1AnVdT9MkWPK-JhVXeWQ/viewform?vc=0&c=0&w=1&flr=0" target="_blank" className="inline-flex text-xl focus:outline-none bg-green-100 text-white font-bold rounded-2xl 3xl:px-16 3xl:py-4 2xl:px-20 2xl:py-3 xl:px-16 xl:py-3  lg:px-12 lg:py-3">
                 Request Demo
-              </button>
+              </a>
             </div>
     </div>
  </header>

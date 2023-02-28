@@ -6,8 +6,8 @@ import { Main } from '@/templates/Main';
 
 const About = () => (
   <Main meta={
-      <Meta title="loophealth - Editorial Policy" 
-      description="loophealth - Editorial Policy" />}>
+      <Meta title="Loop Health - Editorial Policy" 
+      description="Loop Health - Editorial Policy" />}>
       <MainNavbar />
       <HeaderPanel title="Kebijakan Editorial"/>
       <div className="mx-auto flex flex-col py-20 lg:px-24 md:px-16 sm:px-8 px-8 mb-40 font-light text-sm md:text-md xl:text-xl lg:text-lg">

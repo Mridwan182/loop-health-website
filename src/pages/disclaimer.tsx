@@ -5,7 +5,9 @@ import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 
 const About = () => (
-  <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
+  <Main meta={<Meta 
+    title="Loop Health - Disclaimer" 
+  description="Loop Health - Disclaimer"/>}>
       <MainNavbar />
       <HeaderPanel title="Disclaimer"/>
       <div className="mx-auto flex flex-col py-20 lg:px-24 md:px-16 sm:px-8 px-8 font-light text-sm md:text-md xl:text-xl lg:text-lg">

@@ -37,7 +37,7 @@ const JourneyAbout = (props: any) =>  {
     customPaging: (pagi:any, i : any) => {
     
       return (
-        <div className={index == pagi ? "bg-green-100 h-6 w-6 rounded-full mr-92" : "bg-gray-500 h-6 w-6 rounded-full border mr-92"}>
+        <div className={index == pagi ? "bg-green-100 h-2 w-2 md:w-6 md:h-6 rounded-full mr-92" : "bg-gray-500 h-2 w-2 md:w-6 md:h-6 rounded-full border mr-92"}>
 
         </div>
       );
@@ -48,6 +48,15 @@ const JourneyAbout = (props: any) =>  {
     <div id="journey-about">
        <div className="mx-auto flex pt-12 lg:px-24 md:px-16 sm:px-8 px-8 lg:flex-row flex-col mb-[100px] bg-[#F2F9FF] lg:absolute top-0" style={{zIndex: -10}}>
       {/* Left Column */}
+
+      <div className="w-full lg:w-[55%] w-100 xl:w-[60%] text-center justify-center pr-0 block md:hidden">
+        <img
+        id="hero"
+        className="w-100 xl:absolute xl:h-[600px] xl:bottom-0 xl:right-0 h-[100%]"
+        src={`${router.basePath}/assets/images/group-coach.webp`}
+        alt=""
+        />
+      </div>
       <div className="lg:flex-grow lg:w-1/6 flex flex-col lg:items-start lg:text-left mb-3 md:mb-12 lg:mb-0 items-center text-center lg:py-[6%]">
         <h2 className="my-5 lg:text-5xl text-4xl text-darkblue-100 font-normal">
         Tentang <span className="font-bold text-darkblue-100">Loop</span>
@@ -58,7 +67,7 @@ const JourneyAbout = (props: any) =>  {
         </p>
       </div>
       {/* Right Column */}
-      <div className="w-full lg:w-[55%] w-100 xl:w-[60%] text-center justify-center pr-0">
+      <div className="w-full lg:w-[55%] w-100 xl:w-[60%] text-center justify-center pr-0 hidden md:block">
         <img
         id="hero"
         className="w-100 xl:absolute xl:h-[600px] xl:bottom-0 xl:right-0 h-[100%]"
@@ -75,21 +84,21 @@ const JourneyAbout = (props: any) =>  {
         />
 
       <button className="inline-flex 
-      text-xl 
+      text-3xl 
       focus:outline-none bg-white text-[#27275D] font-bold rounded-xl 
       3xl:px-20
       3xl:py-4 
       2xl:px-20 
-      2xl:py-3 xl:px-16 xl:py-3  
+      2xl:py-3 xl:px-20 xl:py-3  
       lg:px-28 
       lg:py-3
       lg:absolute
       lg:bottom-[10%]
-      lg:right-[25%]
+      lg:right-[22%]
       hidden
       xl:block
       ">
-             Coach Loop
+             Health Coach
       </button>
                  
       </div> 
@@ -195,26 +204,26 @@ const JourneyAbout = (props: any) =>  {
       <div className="mx-auto pt-12 lg:px-24 md:px-16 sm:px-8 px-8">
         <div className="bg-orange-100 flex w-100 lg:flex-row flex-col rounded-3xl lg:px-20 lg:pt-18 lg:pb-18 px-8 py-10">
             {/* Left Column */}
-            <div className="w-full lg:w-3/6 xl:w-3/6 flex pr-0 ">
+            <div className="w-full lg:w-3/6 xl:w-3/6 flex pr-0">
               <div className="">
-                  <span className="text-left text-[50px] lg:text-[72px] font-bold text-lightblue-100">
+                  <span className="text-left text-[50px] lg:text-[72px] font-bold text-[#97C7F0]">
                     VISI
                   </span>
-                  <p className="text-sm lg:pr-18 xl:pr-28 lg:text-xl xl:text-xl font-light">
-                  Loop memberdayakan orang-orang yang hidup dengan diabetes dengan mudah melalui perjalanan yang sederhana, personal, dan positif yang membuat kehidupan sehari-hari menjadi lebih baik.
+                  <p className="text-[1.2rem] lg:pr-18 xl:pr-28 lg:text-xl xl:text-xl font-light">
+                  Kami membayangkan sebuah dunia di mana orang Indonesia yang menderita diabetes dapat menjalani kehidupan yang penuh, bebas dari kekhawatiran, dan sesuai dengan kebutuhan individunya. Karena setiap orang ingin sehat.
                   </p>
               </div>
             </div>
-           <div className="lg:border-r-2 lg:border-orange-200 lg:h-100 xl:h-[240px] mt-7 lg:ml-12">
+           <div className="lg:border-r-2 lg:border-orange-200 lg:h-100 xl:h-[200px] mt-7 lg:ml-10 lg:mr-6">
 
            </div>
-            <div className="w-full lg:w-4/6 xl:5/6 ml-0 lg:ml-14 xl:ml-28">
+            <div className="w-full lg:w-3/6 xl:3/6 ml-0 lg:ml-14 xl:ml-28 xl:mb-14">
                 <div className="">
                   <h1 className="text-left text-[50px] lg:text-[72px] font-bold text-orange-200">
                     MISI
                   </h1>
-                  <p className="w-[100%] xl:w-[100%] text-sm lg:text-xl xl:text-xl font-light">
-                  Mengusung tagline, “Whenever you need it most (Selalu ada untuk Anda)”, Loop membawa misi meningkatkan kebahagiaan setiap individu dengan kondisi diabetes tipe-2 untuk mengukir perjalanan hidup yang menyenangkan dan lebih baik setiap harinya, serta dipenuhi berbagai pikiran maupun aktivitas positif.
+                  <p className="w-[100%] xl:w-[100%] text-[1.2rem] lg:text-xl xl:text-xl font-light">
+                  Loop memberdayakan orang-orang yang hidup dengan diabetes dengan cara yang mudah, personal, dan memberikan pengalaman yang positif, sehingga dapat membuat kehidupan sehari-hari menjadi lebih baik.
                   </p>
                 </div>
             </div>

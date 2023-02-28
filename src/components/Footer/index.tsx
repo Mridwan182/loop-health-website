@@ -18,35 +18,35 @@ const Footer = (props: any) =>  {
                     alt="" />
                 </a>
                 <div className="mt-3">
-                    <a href="/about-us">Tentang Kami</a>
+                    <a href="/about-us" className="hover:text-lightgreen-200">Tentang Kami</a>
                 </div>
             </div>
         </div>
         <div className="w-full lg:w-2/5">
             <div>
-              <div className="text-2xl font-semibold mb-8 mt-5">Dukungan dan Bantuan</div>
+              <div className="text-2xl font-semibold mb-8 mt-5 lg:mt-0">Dukungan dan Bantuan</div>
             </div>
             <div className="flex flex-col lg:flex-row">
               <div className="w-full lg:w-1/2">
                   <div className="mb-5">
-                      <a href="/terms-condition" className="font-light text-md ">
+                      <a href="/terms-condition" className="font-light text-md  hover:text-lightgreen-200">
                         Syarat dan Ketentuan
                       </a>
                    </div>
                    <div className="mb-5">
-                      <a href="/privacy-policy" className="font-light text-md ">
+                      <a href="/privacy-policy" className="font-light text-md hover:text-lightgreen-200">
                         Kebijakan Privasi
                       </a>
                    </div>
               </div>
               <div className="w-full lg:w-1/2 text-md">
                    <div className="mb-5">
-                      <a href="/editorial-policy" className="font-light text-md ">
+                      <a href="/editorial-policy" className="font-light text-md hover:text-lightgreen-200">
                         Kebijakan Editorial
                       </a>
                    </div>
                    <div className="mb-5">
-                      <a href="/disclaimer" className="font-light text-md">
+                      <a href="/disclaimer" className="font-light text-md hover:text-lightgreen-200">
                           Disclaimer
                       </a>
                    </div>
@@ -60,19 +60,19 @@ const Footer = (props: any) =>  {
             <div className="flex flex-col lg:flex-row">
               <div className="w-full lg:w-4/6">
                   <div className="mb-5 font-light text-md leading-relaxed text-md lg:pr-20">
-                  Satrio Tower , 26th Floor, Unit C&D Kav. C4,
-                    Jl. Prof. Dr. Satrio, Kel. Kuningan Timur,
-                    Kec. Setiabudi, Jakarta Selatan, 12950
+                  GoWork - Pacific Place, Lantai 1, Room 125. <br/>
+                  Jl. Jend. Sudirman Kav. 52-53, SCBD, <br/>
+                  Jakarta Selatan 12190
                    </div>
               </div>
               <div className="w-full lg:w-2/6">
                    <div className="mb-5">
-                      <a href="" className="font-light text-md ">
+                      <a href="mailto:hello@loophealth.id" target="_blank" className="font-light text-md hover:text-lightgreen-200">
                           hello@loophealth.id
                       </a>
                    </div>
                    <div className="mb-5">
-                      <a href="" className="font-light text-md">
+                      <a href="https://wa.me/+6281112588833" target="_blank" className="font-light text-md hover:text-lightgreen-200">
                             +62 81112588833
                       </a>
                    </div>
