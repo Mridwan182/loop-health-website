@@ -14,7 +14,7 @@ const Journey = (props: any) =>  {
   const [index, setIndex] = useState(0)
 
   const settings : any = {
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 5000,
     infinite: true,
     slidesToShow: 1,
@@ -65,21 +65,21 @@ const Journey = (props: any) =>  {
        
       </div>
       {/* Right Column */}
-      <div className="w-full mxl:w-[60%] lg:w-3/6 text-center justify-center pr-0 ">      
+      <div className="w-full mxl:w-[60%] lg:w-3/6 text-center justify-center pr-0 mmxl:mt-8 xl:mt-0">      
         <Slider {...settings}>
           <div className="px-4">
-              <div className="border-[#B7CBDA] h-[100%] border-2 shadow-lg rounded-[2rem] px-10 py-10 mxl:py-4 mxl:px-4 xl:px-10 xl:py-10 flex ssm:h-[48rem] h-[46rem]  mxl:h-[18rem] lg:h-[430px]  xl:h-[26rem]  4xl:h-[550px] md:h-[800px] bg-white">
+              <div className="border-[#B7CBDA] h-[100%] border-2 shadow-lg rounded-[50px] px-10 py-10 mxl:py-4 mxl:px-4 xl:px-10 xl:py-10 flex ssm:h-[48rem] h-[46rem]  mxl:h-[18rem] lg:h-[430px]  xl:h-[26rem]  4xl:h-[550px] md:h-[800px] bg-white">
               <div className="flex mxl:flex-row lg:flex-row flex-col xl:flex-row">
-                    <div className="w-[80%] mxl-[100%] lg:w-[50%] xl:w-[50%] mxl:content-center mxl:align-center mxl:self-center">
+                    <div className="w-[100%] mxl-[100%] lg:w-[50%] xl:w-[50%] mmxl:flex xl:block mxl:content-center mxl:align-center mxl:self-center mmxl:justify-center">
                         <img
                         src={`${router.basePath}/assets/images/journey-1.webp`}
                         alt=""
-                        className="w-100 ssm:h-[15rem] mxl:h-[13rem] xl:h-[100%]"
+                        className="w-100 ssm:h-[15rem] mxl:h-[13rem] mmxl:h-[15rem] xl:h-[100%]"
                       />  
                     </div>
                     <div className="w-100 px-4 lg:w-[80%] my-4 xl:w-[100%]  mxl:content-center mxl:align-center mxl:self-center">
                     <div className="text-left flex flex-col lg:px-12 xl:px-4 mxl:px-0 ssm-px-0 xl:pr-0">
-                          <p className="text-base lg:text-[20px] tracking font-normal mxl:text-[0.8rem] xl:text-[20px] ssm:text-[1.4rem]">
+                          <p className="text-base mt-6 md:mt-0 lg:text-[20px] tracking font-normal mxl:text-[0.8rem] xl:text-[20px] ssm:text-[1.4rem] mmxl:text-[1rem]">
                             Saya mengalami penurunan gula darah yang sangat berarti setelah mengikuti program dasar diabetes dari aplikasi Loop. Loop tidak hanya membantu memonitoring kondisi diabetes saya tetapi juga mengubah pola hidup saya.
                           </p>
                           <div className="mt-[16%] mxl:mt-[14%] lg:mt-[16%] xl:mt-[16%]">
@@ -95,16 +95,16 @@ const Journey = (props: any) =>  {
           <div className="px-4">
           <div className="border-[#B7CBDA] h-[100%] border-2 shadow-lg rounded-[50px] px-10 py-10 mxl:py-4 mxl:px-4 xl:px-10 xl:py-10 flex ssm:h-[48rem] h-[46rem]  mxl:h-[18rem] lg:h-[430px]  xl:h-[26rem]  4xl:h-[550px] md:h-[800px] bg-white">
           <div className="flex lg:flex-row flex-col  mxl:flex-row xl:flex-row">
-          <div className="w-[80%] mxl-[100%] lg:w-[50%] xl:w-[50%] mxl:content-center mxl:align-center mxl:self-center">
+          <div className="w-[100%] mxl-[100%] lg:w-[50%] xl:w-[50%] mmxl:flex xl:block mxl:content-center mxl:align-center mxl:self-center  mmxl:justify-center">
                         <img
                         src={`${router.basePath}/assets/images/journey-2.webp`}
                         alt=""
-                        className="w-100 ssm:h-[15rem] mxl:h-[13rem] xl:h-[100%]"
+                        className="w-100 ssm:h-[15rem] mxl:h-[13rem] mmxl:h-[15rem] xl:h-[100%]"
                       />  
                     </div>
                     <div className="w-100 px-4 lg:w-[80%] mxl:my-0 my-4 mxl:w-100 xl:w-[100%]  mxl:px-2 mxl:content-center mxl:align-center mxl:self-center">
                         <div className="text-left flex flex-col lg:px-12 mxl:p-2 xl:px-4 xl:pr-0">
-                        <p className="text-base lg:text-[20px] tracking font-normal  mxl:text-[0.8rem]  xl:text-[20px] ssm:text-[1.4rem]">
+                        <p className="text-base mt-6 md:mt-0 lg:text-[20px] tracking font-normal  mxl:text-[0.8rem]  xl:text-[20px] ssm:text-[1.4rem] ">
                           Karena Loop, saya jadi tau bagaimana mengatur asupan makanan dan minuman, dari jenis nutrisi dan  porsinya yang baik untuk menjaga pola hidup saya sebagai seorang diabtesi.
                           </p>
                           <div className="mt-[16%] mxl:mt-[12%] lg:mt-[16%] xl:mt-[16%]">
@@ -120,16 +120,16 @@ const Journey = (props: any) =>  {
           <div className="px-4">
             <div className="border-[#B7CBDA] h-[100%] border-2 shadow-lg rounded-[50px] px-10 py-10 mxl:py-4 mxl:px-4 xl:px-10 xl:py-10 flex ssm:h-[48rem] h-[46rem] mxl:h-[18rem]   xl:h-[26rem]   lg:h-[430px] 4xl:h-[550px] md:h-[800px] bg-white">
             <div className="flex lg:flex-row flex-col mxl:flex-row xl:flex-row">
-                    <div className="w-[80%] mxl-[100%] lg:w-[50%] xl:w-[50%] mxl:content-center mxl:align-center mxl:self-center">
+                    <div className="w-[100%] mxl-[100%] lg:w-[50%] xl:w-[50%] mmxl:flex xl:block mxl:content-center mxl:align-center mxl:self-center  mmxl:justify-center">
                         <img
                         src={`${router.basePath}/assets/images/journey-3.webp`}
                         alt=""
-                        className="w-100 ssm:h-[15rem] mxl:h-[13rem] xl:h-[100%]"
+                        className="w-100 ssm:h-[15rem] mxl:h-[13rem] mmxl:h-[15rem] xl:h-[100%]"
                       />  
                     </div>
-                    <div className="w-100 px-4 lg:w-[80%] my-4 mxl:w-100 xl:w-[100%] mxl:content-center mxl:align-center mxl:self-center">
+                    <div className="w-100 mt-6 md:mt-0 px-4 lg:w-[80%] my-4 mxl:w-100 xl:w-[100%] mxl:content-center mxl:align-center mxl:self-center">
                     <div className="text-left flex flex-col lg:px-4 mxl:p-2 xl:px-4 xl:pr-0">
-                        <p className="text-base lg:text-[20px] tracking font-normal mxl:text-[0.8rem] xl:text-[20px] ssm:text-[1.4rem]">
+                        <p className="text-base lg:text-[20px] tracking font-normal mxl:text-[0.8rem] xl:text-[20px] ssm:text-[1.4rem] mmxl:text-[1rem]">
                           Saat melakukan konsultasi kondisi diabetes saya bersama Coach Loop saya  selalu mendapatkan panduan detail tentang pengecekan gula darah, pola makan, dan aktivitas fisik yang membantu kondisi diabetes saya menjadi lebih baik.
                           </p>
                           <div className="mt-[16%] mxl:mt-[14%] lg:mt-[16%] xl:mt-[16%]">

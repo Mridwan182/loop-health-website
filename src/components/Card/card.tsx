@@ -29,7 +29,7 @@ const colorBorder : any = {
 const CardFeature = ({description, title, icon, color} : CardFeatureProps) =>  {
 
   return (
-        <div className={`rounded-3xl px-6 pb-16 pt-8 mxl:px-4 xl:h-[650px] 2xl:h-[100%] ` + colorBg[color]}
+        <div className={`rounded-3xl px-6 pb-16 pt-8 mxl:px-4 mxl:h-[25rem] xl:h-[650px] 2xl:h-[100%] ` + colorBg[color]}
         >
           {icon}
           <h5 className={`text-left text-2xl my-4 font-bold ssm:text-3xl 4xl:text-3xl mxl:text-[1rem] lg:text-2xl xl:text-2xl  md:text-[2rem] ` + colorText[color]}>{title}</h5>

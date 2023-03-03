@@ -24,7 +24,7 @@ const Service = (props: any) =>  {
         text-left
         ssm:text-5xl
         ">
-            Layanan <span className="font-bold text-darkblue-100">Digital Self-Care</span> <br className="hidden md:block"/> Bagi <span className="font-bold text-darkblue-100">Diabetes Tipe 2</span>
+            Layanan <span className="font-bold text-darkblue-100">Digital Self-Care</span> <br className="hidden xl:block"/> Bagi <span className="font-bold text-darkblue-100">Diabetes  <br className="hidden mmxl:block xl:hidden"/> Tipe 2</span>
         </h2>
         <hr className="h-px my-2 mx-2 md:my-10 md:mx-4 bg-darkblue-100 border-darkblue-100 dark:bg-darkblue-100 border-2 w-1/6 mxl:my-4 mxl:mx-2"/>
         <p className="small-text mb-8 mt-4 leading-8 font-light lg:text-xl md:mr-12 lg:mr-12 xl:mr-28 xl:pr-22 
@@ -42,7 +42,7 @@ const Service = (props: any) =>  {
         </p>  
       </div>
       {/* Right Column */}
-      <div className="w-full mxl:w-2/2 mmxl:w-4/6 lg:w-4/8 xl:w-5/6 text-center justify-center flex pr-0 mmxl:px-4">
+      <div className="w-full mxl:w-2/2 mmxl:w-4/6 lg:w-4/8 xl:w-5/6 text-center justify-center flex pr-0 mmxl:pl-[2rem]">
         <div className="flex lg:flex-row flex-col">
         <div className="lg:w-1/3 mxl:px-3 px-6 sm:3/3 my-6">
               <CardFeature 

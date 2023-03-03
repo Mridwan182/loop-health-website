@@ -53,7 +53,7 @@ const Hero = (props: any) =>  {
               className="lg:h-[85%] 
               lg:w-[100%] 
               xl:h-[42rem] 
-              xl:w-[42rem] 
+              xl:w-[44rem] 
               xl:top-[2rem]
               xl:right-[4rem]
               2xl:h-[80%] 
@@ -66,11 +66,11 @@ const Hero = (props: any) =>  {
               xl:right-3 2xl:right-4 
               3xl:right-24 text-center
               mmxl:absolute
-              mmxl:w-[36rem]
+              mmxl:w-[38rem]
               mmxl:h-[36rem]
               mmxl:top-[4rem]
               mxl:absolute
-              mxl:w-[32rem]
+              mxl:w-[34rem]
               mxl:h-[32rem]
               mxl:top-[4rem]
               mxl:right-[1.8rem]

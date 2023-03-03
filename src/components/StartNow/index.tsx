@@ -55,7 +55,7 @@ const StartNow = (props: any) =>  {
           hidden
           md:hidden
           mxl:block mxl:absolute mxl:right-0 mxl:h-[52rem] mxl:-bottom-[115rem] 
-          mmxl:block mmxl:absolute mmxl:right-0 mmxl:h-[65rem] mmxl:-bottom-[108rem] 
+          mmxl:block mmxl:absolute mmxl:right-0 mmxl:h-[65rem] mmxl:-bottom-[118rem] 
           lg:block lg:absolute lg:right-0 lg:h-[65rem] lg:-bottom-[118rem] 
           xl:block xl:absolute xl:right-0 xl:h-[65rem] xl:-bottom-[145rem] 
           xxl:block xxl:absolute xxl:right-0 xxl:h-[65rem] xxl:-bottom-[140rem] 
@@ -73,14 +73,14 @@ const StartNow = (props: any) =>  {
           hidden
           md:hidden
           mxl:block mxl:absolute mxl:right-0 mxl:h-[34rem] mxl:-bottom-[109rem] 
-          mmxl:block mmxl:absolute mmxl:right-0 mmxl:h-[43rem] mmxl:-bottom-[100rem] 
+          mmxl:block mmxl:absolute mmxl:right-0 mmxl:h-[43rem] mmxl:-bottom-[111rem] 
           lg:block lg:absolute lg:right-0 lg:h-[43rem] lg:-bottom-[110rem] 
           xl:block xl:absolute xl:right-0 xl:h-[43rem] xl:-bottom-[137rem] 
           xxl:block xxl:absolute xxl:right-0 xxl:h-[43rem] xxl:-bottom-[131rem] 
           2xl:block 2xl:absolute 2xl:right-0 2xl:h-[43rem] 2xl:-bottom-[124rem] 
           3xl:block 3xl:absolute 3xl:right-0 3xl:h-[60rem] 3xl:-bottom-[140rem] 
           4xl:block 4xl:absolute 4xl:right-0 4xl:h-[60rem] 4xl:-bottom-[150rem] 
-          5xl:bloxk 5xl:right-0 5xl:h-[1000px] 5xl:-bottom-[177rem] 
+          5xl:absolute 5xl:right-0 5xl:h-[1000px] 5xl:-bottom-[177rem] 
           "
           style={{zIndex: -10}}
           src={`${router.basePath}/assets/images/device.webp`}
