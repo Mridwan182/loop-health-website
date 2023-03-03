@@ -8,7 +8,7 @@ const MainNavbar = (props: any) =>  {
 
   return (
     <header>
-    <div className="mx-auto flex py-8 lg:px-24 md:px-16 sm:px-8 px-8 items-center justify-between lg:justify-start">
+    <div className="mx-auto flex py-8 mxl:px-12 mmxl:px-24 lg:px-24 md:px-16 sm:px-8 px-8 items-center justify-between lg:justify-start">
        <a href="/">
         <img 
            className="h-12"

@@ -26,13 +26,27 @@ const Index = () => {
        <img
         id="hero"
         className="w-100 
-        hidden 
-          xl:block xl:absolute xl:left-0 xl:h-[1400px] xl:top-[45rem] 
+          hidden 
+          xl:block xl:absolute xl:left-0 xl:h-[65rem] xl:top-[35rem] 
+          mxl:block mxl:absolute mxl:left-0 mxl:h-[50rem] mxl:top-[28rem] 
+          mmxl:block mmxl:absolute mmxl:left-0 mmxl:h-[50rem] mmxl:top-[30rem] 
           3xl:block 3xl:absolute 3xl:left-0 3xl:h-[1450px] 3xl:top-[40rem] 
           4xl:block 4xl:absolute 4xl:left-0 4xl:h-[1900px] 4xl:top-[30rem] 
           5xl:bloxk 5xl:right-0 5xl:h-[1900px] 5xl:top-[25rem] "
         style={{zIndex: -10}}
         src={`${router.basePath}/assets/images/elips-green-top.webp`}
+        alt=""
+        />
+
+        <img
+        id="hero"
+        className="w-100 
+          absolute
+          h-[100rem]
+          top-[50rem]
+          md:hidden"
+        style={{zIndex: -10}}
+        src={`${router.basePath}/assets/images/elipse-green-mobile.webp`}
         alt=""
         />
 
@@ -43,6 +57,7 @@ const Index = () => {
       <Journey /> 
       <StartNow />
       <Footer/>
+     
      
     </Main>
   );

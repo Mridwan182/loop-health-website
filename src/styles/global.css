@@ -11,7 +11,30 @@
 
 
 
-@media (min-width: 1281px) {
+
+@media (min-width: 1600px) { 
+  #journey .slick-dots {
+    top: 525px
+  }
+
+  #journey .slick-dots li {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+    #journey-about .slick-dots {
+      top: 32rem;
+    }
+  
+    #journey-about .slick-dots li {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+      
+}
+
+
+@media (min-width: 1280px) and (max-width: 1440px) {
   
   /* CSS */
 
@@ -25,37 +48,27 @@
 }
 
 
-#journey-about .slick-dots {
-  top: 620px;
-}
-
-#journey-about .slick-dots li {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-  
-  
-}
-
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1900px) { 
-  #journey .slick-dots {
-    top: 525px;
+  #journey-about .slick-dots {
+    top: 28rem;
   }
 
-  #journey .slick-dots li {
+  #journey-about .slick-dots li {
     margin-left: 10px;
     margin-right: 10px;
-}
+  }
+    
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   
   /* CSS */
+  #journey .slick-dots {
+    top: 20rem;
+  }
+
+  #journey-about .slick-dots {
+    top: 33rem;
+  }
   
 }
 
@@ -64,10 +77,16 @@
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   
   /* CSS */
-  
+  #journey .slick-dots {
+    top: 53rem;
+  }
+
+  #journey-about .slick-dots {
+    top: 51rem;
+  }
 }
 
 /* 
@@ -89,7 +108,13 @@
 @media (min-width: 481px) and (max-width: 767px) {
   
   /* CSS */
-  
+  #journey .slick-dots {
+    top: 50rem;
+  }
+
+  #journey-about .slick-dots {
+    top: 26.5rem;
+  }
 }
 
 /* 
@@ -101,14 +126,12 @@
   
   /* CSS */
 
-  
-
   #journey .slick-dots {
-    top: 110%;
+    top: 48rem;
   }
 
   #journey-about .slick-dots {
-    top: 110%;
+    top: 24.5rem;
   }
   
   
