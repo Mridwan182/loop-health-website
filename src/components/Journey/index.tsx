@@ -127,9 +127,9 @@ const Journey = (props: any) =>  {
                         className="w-100 ssm:h-[15rem] mxl:h-[13rem] mmxl:h-[15rem] xl:h-[100%]"
                       />  
                     </div>
-                    <div className="w-100 mt-6 md:mt-0 px-4 lg:w-[80%] my-4 mxl:w-100 xl:w-[100%] mxl:content-center mxl:align-center mxl:self-center">
+                    <div className="w-100  px-4 lg:w-[80%] my-4 mxl:w-100 xl:w-[100%] mxl:content-center mxl:align-center mxl:self-center">
                     <div className="text-left flex flex-col lg:px-4 mxl:p-2 xl:px-4 xl:pr-0">
-                        <p className="text-base lg:text-[20px] tracking font-normal mxl:text-[0.8rem] xl:text-[20px] ssm:text-[1.4rem] mmxl:text-[1rem]">
+                        <p className="text-base mt-6 md:mt-0 lg:text-[20px] tracking font-normal mxl:text-[0.8rem] xl:text-[20px] ssm:text-[1.4rem] mmxl:text-[1rem]">
                           Saat melakukan konsultasi kondisi diabetes saya bersama Coach Loop saya  selalu mendapatkan panduan detail tentang pengecekan gula darah, pola makan, dan aktivitas fisik yang membantu kondisi diabetes saya menjadi lebih baik.
                           </p>
                           <div className="mt-[16%] mxl:mt-[14%] lg:mt-[16%] xl:mt-[16%]">
