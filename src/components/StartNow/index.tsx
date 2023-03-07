@@ -1,14 +1,42 @@
 import router, { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
 
 
 const StartNow = (props: any) =>  {
   const router = useRouter()
+  const size = useWindowSize();
 
+  // Hook
+      function useWindowSize() {
+        // Initialize state with undefined width/height so server and client renders match
+        // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+        const [windowSize, setWindowSize] = useState({
+          width: 0,
+          height: "",
+        });
+        useEffect(() => {
+          // Handler to call on window resize
+          function handleResize() {
+            // Set window width/height to state
+            setWindowSize({
+              width: window.innerWidth,
+              height: window.innerHeight.toString() + "px",
+            });
+          }
+          // Add event listener
+          window.addEventListener("resize", handleResize);
+          // Call handler right away so state gets updated with initial window size
+          handleResize();
+          // Remove event listener on cleanup
+          return () => window.removeEventListener("resize", handleResize);
+        }, []); // Empty array ensures that effect is only run on mount
+        return windowSize;
+      }
   return (
     <div>
     <div className="mx-auto flex pt-12 lg:px-24  lg:flex-row flex-col px-0 md:px-0 mxl:px-12 mmxl:px-24">
       {/* Left Column */}
-      <div className="lg:flex-grow lg:w-2/3 flex flex-col lg:items-start lg:text-left mb-3 md:mb-12 lg:mb-0 px-8 mxl:px-0 md:px-24">
+      <div className="lg:flex-grow lg:w-2/3 flex flex-col lg:items-start lg:text-left mb-3 md:mb-12 lg:mb-0 px-8 mxl:px-0 md:px-24 mmxl:-mt-[0%]">
       <h2 className="my-5 lg:text-5xl text-4xl text-darkblue-100 font-normal
         mxl:text-3xl
         mmxl:text-4xl
@@ -55,13 +83,13 @@ const StartNow = (props: any) =>  {
           hidden
           md:hidden
           mxl:block mxl:absolute mxl:right-0 mxl:h-[52rem] mxl:-bottom-[115rem] 
-          mmxl:block mmxl:absolute mmxl:right-0 mmxl:h-[65rem] mmxl:-bottom-[118rem] 
+          mmxl:block mmxl:absolute mmxl:right-0 mmxl:h-[65rem] mmxl:bottom-[calc(100%_-_127.5em)] 
           lg:block lg:absolute lg:right-0 lg:h-[65rem] lg:-bottom-[118rem] 
-          xl:block xl:absolute xl:right-0 xl:h-[65rem] xl:-bottom-[145rem] 
+          xl:block xl:absolute xl:right-0 xl:h-[65rem] xl:bottom-[calc(100%_-_200rem)] 
           xxl:block xxl:absolute xxl:right-0 xxl:h-[65rem] xxl:-bottom-[140rem] 
           3xl:block 3xl:absolute 3xl:right-0 3xl:h-[90rem] 3xl:-bottom-[150rem] 
           4xl:block 4xl:absolute 4xl:right-0 4xl:h-[90rem] 4xl:-bottom-[160rem] 
-          5xl:bloxk 5xl:right-0 5xl:h-[1600px] 5xl:-bottom-[190rem] 
+          5xl:bloxk 5xl:right-0 5xl:h-[1400px] 5xl:bottom-[calc(100%_-_245rem)] 
           "
           style={{zIndex: -10}}
           src={`${router.basePath}/assets/images/elips-orange-bottom.webp`}
@@ -69,19 +97,19 @@ const StartNow = (props: any) =>  {
         />
         <img
           id="hero"
-          className="
+          className={`
           hidden
           md:hidden
           mxl:block mxl:absolute mxl:right-0 mxl:h-[34rem] mxl:-bottom-[109rem] 
-          mmxl:block mmxl:absolute mmxl:right-0 mmxl:h-[43rem] mmxl:-bottom-[111rem] 
+          mmxl:block mmxl:absolute mmxl:right-0 mmxl:h-[43rem] mmxl:bottom-[calc(100%_-_121em)] 
           lg:block lg:absolute lg:right-0 lg:h-[43rem] lg:-bottom-[110rem] 
-          xl:block xl:absolute xl:right-0 xl:h-[43rem] xl:-bottom-[137rem] 
+          xl:block xl:absolute xl:right-0 xl:h-[43rem] xl:bottom-[calc(100%_-_193rem)] 
           xxl:block xxl:absolute xxl:right-0 xxl:h-[43rem] xxl:-bottom-[131rem] 
           2xl:block 2xl:absolute 2xl:right-0 2xl:h-[43rem] 2xl:-bottom-[124rem] 
-          3xl:block 3xl:absolute 3xl:right-0 3xl:h-[60rem] 3xl:-bottom-[140rem] 
+          3xl:block 3xl:absolute 3xl:right-0 3xl:h-[60rem] 3xl:-bottom-[141rem] 
           4xl:block 4xl:absolute 4xl:right-0 4xl:h-[60rem] 4xl:-bottom-[150rem] 
-          5xl:absolute 5xl:right-0 5xl:h-[1000px] 5xl:-bottom-[177rem] 
-          "
+          5xl:absolute 5xl:right-0 5xl:h-[1000px] 5xl:bottom-[calc(100%_-_238rem)] 
+          `}
           style={{zIndex: -10}}
           src={`${router.basePath}/assets/images/device.webp`}
           alt=""

@@ -39,7 +39,7 @@
   /* CSS */
 
   #journey .slick-dots {
-    top: 24rem;
+    top: calc(100% + 3rem)
   }
 
   #journey .slick-dots li {
@@ -49,7 +49,7 @@
 
 
   #journey-about .slick-dots {
-    top: 28rem;
+    top: calc(100% + 3rem)
   }
 
   #journey-about .slick-dots li {

@@ -54,18 +54,19 @@ const JourneyAbout = (props: any) =>  {
 
   return (
     <div id="journey-about">
-       <div className="mx-auto flex px-0 pt-12 lg:px-24 md:px-16 sm:px-8 md:px-8 mxl:px-12 mmxl:px-24 lg:flex-row flex-col mb-[100px] bg-[#F2F9FF] lg:absolute top-0" style={{zIndex: -10}}>
+       <div className="mx-auto flex px-0 pt-12 lg:px-24 md:px-16 sm:px-8 md:px-8 mxl:px-12 mmxl:px-24 mxl:pb-[1.5rem] lg:flex-row flex-col mb-[0.5em] bg-[#F2F9FF] lg:absolute top-0" style={{zIndex: -10}}>
       {/* Left Column */}
 
-      <div className="w-full lg:w-[55%] w-100 xl:w-[60%] text-center justify-center pr-0 block md:hidden">
+      <div className="w-full lg:w-[55%] w-100 xl:w-[60%] text-center justify-center pr-0 block mxl:hidden">
         <img
         id="hero"
-        className="w-100 xl:absolute xl:h-[600px] xl:bottom-0 xl:right-0 h-[18rem]"
+        className="w-100 xl:absolute xl:h-[600px] xl:bottom-0 xl:right-0 h-[18rem] md:w-[100%] md:h-[400px]"
         src={`${router.basePath}/assets/images/group-coach.webp`}
         alt=""
         />
           <button className="
                   absolute 
+                  md:top-[30rem]
                   top-[23.5rem]
                   focus:outline-none bg-white text-[#27275D] font-bold rounded-xl 
                   text-center
@@ -78,7 +79,7 @@ const JourneyAbout = (props: any) =>  {
       </button>
       </div>
 
-      <div className="lg:flex-grow lg:w-1/6 mxl:w-2/6 flex flex-col lg:text-left mb-3 md:mb-12 lg:mb-0 lg:py-[6%] px-8 mxl:px-0">
+      <div className="lg:flex-grow lg:w-1/6 mxl:w-2/6 flex flex-col lg:text-left mb-3 md:mb-12 lg:mb-0 lg:py-[6%] px-8 mxl:px-0 mmxl:w-[20%] xl:w-[50%]">
         <h2 className="my-5 lg:text-5xl text-4xl text-darkblue-100 font-normal">
         Tentang <span className="font-bold text-darkblue-100">Loop</span>
         </h2>
@@ -90,7 +91,7 @@ const JourneyAbout = (props: any) =>  {
         text-base
         text-left
         ssm:text-[1.5rem]
-        md:text-[1.4rem]
+        md:text-[1.4rem]    
         ">
           Loop adalah aplikasi manajemen diabetes yang dirancang oleh sekelompok individu yang terinspirasi untuk mengatasi kurangnya akses ke tutorial harian sederhana bagi orang yang hidup dengan diabetes. Platform kami yang mudah digunakan memberikan akses ke sumber daya, pelatihan personal, dan real-time feedback dari para ahli kesehatan untuk memudahkan pengelolaan diabetes
         </p>
@@ -99,14 +100,34 @@ const JourneyAbout = (props: any) =>  {
       <div className="w-full lg:w-[55%] w-100 xl:w-[60%] text-center justify-center pr-0 hidden md:block mxl:w-[60%]">
         <img
         id="hero"
-        className="w-100 xl:absolute xl:h-[600px] xl:bottom-0 xl:right-0 h-[100%] mxl:h-[32rem]"
+        className="w-100 
+        hidden
+        xl:absolute 
+        mxl:absolute
+        mxl:-right-[0rem] 
+        xl:h-[600px] 
+        xl:bottom-0 
+        xl:right-0 
+        h-[100%] 
+        mxl:block
+        mxl:h-[32rem] 
+        mxl:w-[calc(100%_-_25rem)] 
+        mmxl:w-[calc(98%_-_35rem)]
+        xl:w-[calc(100%_-_40rem)]
+        bottom-[0px]
+        " 
         src={`${router.basePath}/assets/images/group-coach.webp`}
         alt=""
         />
 
       <img
         id="hero"
-        className="w-100 hidden lg:block lg:absolute lg:h-[550px] lg:top-0 lg:right-0 mxl:absolute mxl:h-[26rem]"
+        className="w-100 hidden 
+        lg:block 
+        lg:absolute 
+       
+        mxl:h-[calc(100%_-_15rem)] 
+        mxl:w-[calc(70%_-_5rem)] lg:h-[550px] lg:top-0 lg:right-0 mxl:absolute mxl:h-[26rem]"
         style={{zIndex: -10}}
         src={`${router.basePath}/assets/images/elipse-orange.webp`}
         alt=""
@@ -118,12 +139,20 @@ const JourneyAbout = (props: any) =>  {
           3xl:px-20
           3xl:py-4 
           2xl:px-20 
-          2xl:py-3 xl:px-20 xl:py-3  
+          2xl:py-3 
+          xl:px-20 
+          xl:py-3  
           lg:px-28 
           lg:py-3
           lg:absolute
           lg:bottom-[10%]
           lg:right-[22%]
+          mxl:block
+          mxl:px-[2rem]
+          mxl:text-[1.5rem]
+          mxl:mr-[calc(12%_-_6em)]
+          mmxl:mr-[calc(12%_-_7em)]
+          xl:mr-[calc(12%_-_10em)]
           hidden
           xl:block
           ">
@@ -132,10 +161,10 @@ const JourneyAbout = (props: any) =>  {
                  
       </div> 
     </div>
-    <div className="mx-auto flex pt-12 lg:px-24 md:px-16 sm:px-8 px-8 lg:flex-row flex-col mxl:mt-[60rem] mmxl:mt-[45rem] lg:mt-[750px] mb-[100px]">
+    <div className="mx-auto flex pt-12 lg:px-24 md:px-16 sm:px-8 px-8 lg:flex-row flex-col mxl:mt-[calc(60%_-_5rem)] mmxl:mt-[calc(50%_-_14rem)] xl:mt-[calc(50%_-_2rem)] lg:mt-[750px] mb-[4em] ">
       {/* Left Column */}
       <div className="lg:flex-grow lg:w-1/6 flex flex-col lg:items-start lg:text-left mb-3 md:mb-12 lg:mb-0">
-        <h2 className="my-5 lg:text-5xl text-4xl text-darkblue-100 font-normal">
+        <h2 className="my-5 mmxl:my-0 xl:my-5 lg:text-5xl text-4xl md:text-5xl text-darkblue-100 font-normal mxl:text-[calc(5vh_-_0.5rem)] mmxl:text-5xl">
         Kami Memfasilitasi <br/> Konsultasi Bersama <br/>
           <span className="font-bold text-darkblue-100">Coach Bersertifikat</span>
         </h2>
@@ -238,7 +267,7 @@ const JourneyAbout = (props: any) =>  {
       </div>
   
     </div>
-      <div className="mx-auto pt-12 lg:px-24 md:px-16 sm:px-8 px-8">
+      <div className="mx-auto pt-12 lg:px-24 md:px-16 sm:px-8 px-8 mmxl:-mt-10 xl:mt-0">
         <div className="bg-orange-100 flex w-100 lg:flex-row flex-col rounded-3xl lg:px-20 lg:pt-18 lg:pb-18 px-8 py-10">
             {/* Left Column */}
             <div className="w-full lg:w-3/6 xl:w-3/6 flex pr-0">
@@ -266,10 +295,10 @@ const JourneyAbout = (props: any) =>  {
             </div>
         </div>
     </div>
-    <div className="mx-auto flex px-0 pt-12 lg:px-24 lg:flex-row mxl:flex-row mmxl:flex-row flex-col lg:mt-[200px] mb-3">
+    <div className="mx-auto flex px-0 pt-12 lg:px-24 lg:flex-row mxl:flex-row mmxl:flex-row flex-col mmxl:mt-[5rem] lg:mt-[200px] mb-3 mxl:mt-[calc(10%_-_5rem)] mmxl:mt-[calc(10%_-_6rem)]">
       {/* Left Column */}
       <div className="lg:flex-grow lg:w-2/4 flex flex-col lg:items-start lg:text-left mb-3 md:mb-12 lg:mb-0 lg:mt-28 px-8 md:px-12 lg:px-0">
-        <h2 className="my-5 lg:text-5xl text-4xl text-darkblue-100 font-normal">
+        <h2 className="my-5 lg:text-5xl text-4xl text-darkblue-100 font-normal mmxl:-mt-[3rem] xl:-mt-[0rem]">
             Menuju <span className="font-bold text-darkblue-100">Perubahan Positif <br className="hidden mxl:block" />Bersama</span> Loop!
         </h2>
         <hr className="h-px mx-2 my-2 mxl:my-3 mxl:mx-4 bg-darkblue-100 border-darkblue-100 dark:bg-darkblue-100 border-2 w-1/6"/>
@@ -294,14 +323,15 @@ const JourneyAbout = (props: any) =>  {
           hidden
           mxl:block
           mmxl:block
-          lg:absolute lg:right-0 lg:h-[50rem] lg:-bottom-[148rem] 
-          xl:absolute xl:right-0 xl:h-[70rem] xl:-bottom-[140rem] 
-          mxl:absolute mxl:right-0 mxl:h-[55rem]  mxl:-bottom-[170rem]
-          mmxl:absolute mmxl:right-0 mmxl:h-[55rem]  mmxl:-bottom-[130rem]
-          2xl:absolute 2xl:right-0 2xl:h-[1500px] 2xl:-bottom-[130rem] 
-          3xl:absolute 3xl:right-0 3xl:h-[1500px] 3xl:-bottom-[140rem] 
-          4xl:absolute 4xl:right-0 4xl:h-[1500px] 4xl:-bottom-[155rem] 
-          5xl:right-0 5xl:h-[1600px] 5xl:-bottom-[145rem] 
+          lg:absolute lg:right-0 lg:h-[60rem] lg:-bottom-[123rem] 
+          xl:absolute xl:right-0 xl:h-[calc(100%_+_8rem)] xl:bottom-[calc(100%_-_178rem)] 
+          mxl:absolute mxl:right-0 mxl:h-[calc(100%_-_10rem)] mxl:bottom-[calc(100%_-_172rem)] 
+          mmxl:absolute mmxl:right-0 mmxl:h-[65rem] mmxl:bottom-[calc(100%_-_150rem)] 
+          xxl:absolute xxl:right-0 xxl:h-[65rem] xxl:bottom-[calc(100%_-_185rem)] 
+          2xl:absolute 2xl:right-0 2xl:h-[1550px] 2xl:-bottom-[105rem] 
+          3xl:absolute 3xl:right-0 3xl:h-[1550px] 3xl:-bottom-[115rem] 
+          4xl:absolute 4xl:right-0 4xl:h-[1550px] 4xl:-bottom-[130rem] 
+          5xl:right-0 5xl:h-[1600px] 5xl:-bottom-[140rem] 
           "
           style={{zIndex: -10}}
           src={`${router.basePath}/assets/images/mom-circle.webp`}
@@ -331,6 +361,7 @@ const JourneyAbout = (props: any) =>  {
           block
           -mb-[9rem]
           sm:h-[50%] sm:w-[50%]
+          ssm:h-[100%] ssm:w-[100%]
           md:w-[100%]
           md:block
           mxl:hidden

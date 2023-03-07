@@ -6,7 +6,7 @@ const Footer = (props: any) =>  {
   const router = useRouter()
 
   return (
-    <footer className="bg-white shadow dark:bg-blue-100 lg:mt-[5%] z-30 w-100">
+    <footer className="bg-blue-100 shadow dark:bg-blue-100 lg:mt-[5%] z-30 w-100">
       <div className="mx-auto lg:px-24 sm:px-10 px-4 py-20">
       <div className="flex flex-col lg:flex-row">
         <div className="w-full lg:w-1/6">

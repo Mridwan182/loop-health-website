@@ -39,11 +39,13 @@ const Journey = (props: any) =>  {
   return (
     <div id="journey">
    
-    <div className="mx-auto px-8 md:px-24 flex pt-12 pb-16 lg:pb-20 lg:px-24 md:px-16 sm:px-8 px-8 lg:flex-row flex-col lg:mt-[2%] lg:mb-[8%]
+    <div className="mx-auto px-8 md:px-24 flex pt-12 pb-16 lg:pb-20 lg:px-24 md:px-16 sm:px-8 px-8 lg:flex-row flex-col lg:mt-[2%] lg:mb-[8%] mmxl:mb-[5%]
      mxl:flex-row
      mxl:px-12
      mmxl:px-24
      mmxl:flex-row
+    mmxl:-mt-[1%]
+    xl:mt-[2%]
     ">
       {/* Left Column */}
       <div className="lg:flex-grow mxl:w-[40%] lg:w-1/2 flex flex-col lg:items-start lg:text-left mb-3 md:mb-12 lg:mb-0 text-center">
