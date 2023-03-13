@@ -54,8 +54,8 @@ const Journey = (props: any) =>  {
         </h2>
         <hr className="h-px my-2 mx-2 md:my-10 md:mx-4 bg-darkblue-100 border-darkblue-100 dark:bg-darkblue-100 border-2 w-1/6 mxl:my-4 mxl:mx-2"/>
         <p className="small-text text-base text-left mb-8 mt-4 leading-8 font-light lg:text-xl 
-        md:mr-12 lg:mr-12 xl:mr-28 xl:pr-24 xl:w-50 sm:text-sm text-black 3xl:leading-10 3xl:text-2xl 3xl:pr-[10rem]
-        mxl:text-[1rem] mxl:leading-6 mxl:mr-[2rem]
+        md:mr-12 lg:mr-12 xl:mr-[100%_-_10rem] xl:pr-24 xl:w-50 sm:text-sm text-black 3xl:leading-10 3xl:text-2xl 3xl:pr-[10rem]
+        mxl:text-[1rem] mxl:leading-6 xl:leading-8 mxl:mr-[2rem]
         ssm:text-[1.5rem]
         md:text-[1.4rem]
         xl:text-[1.4rem]

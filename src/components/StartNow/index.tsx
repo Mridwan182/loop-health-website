@@ -82,12 +82,14 @@ const StartNow = (props: any) =>  {
           className="
           hidden
           md:hidden
-          mxl:block mxl:absolute mxl:right-0 mxl:h-[52rem] mxl:-bottom-[115rem] 
-          mmxl:block mmxl:absolute mmxl:right-0 mmxl:h-[65rem] mmxl:bottom-[calc(100%_-_127.5em)] 
+          mxl:block mxl:absolute mxl:right-0 mxl:h-[52rem] mxl:bottom-[calc(100%_-_138.5em)] 
+          mmxl:block mmxl:absolute mmxl:right-0 mmxl:h-[65rem] mmxl:bottom-[calc(100%_-_129.5em)] 
           lg:block lg:absolute lg:right-0 lg:h-[65rem] lg:-bottom-[118rem] 
-          xl:block xl:absolute xl:right-0 xl:h-[65rem] xl:bottom-[calc(100%_-_200rem)] 
-          xxl:block xxl:absolute xxl:right-0 xxl:h-[65rem] xxl:-bottom-[140rem] 
-          3xl:block 3xl:absolute 3xl:right-0 3xl:h-[90rem] 3xl:-bottom-[150rem] 
+          xl:block xl:absolute xl:right-0 xl:h-[65rem] xl:bottom-[calc(100%_-_186rem)] 
+          xxl:block xxl:absolute xxl:right-0 xxl:h-[65rem] xxl:bottom-[calc(100%_-_195rem)] 
+          2xl:block 2xl:absolute 2xl:right-0 2xl:h-[65rem] 2xl:bottom-[calc(100%_-_196rem)] 
+          3xl:block 3xl:absolute 3xl:right-0 3xl:h-[78rem] 3xl:bottom-[calc(100%_-_215rem)]
+          3xxl:block 3xxl:absolute 3xxl:right-0 3xxl:h-[82rem] 3xxl:bottom-[calc(100%_-_211rem)]
           4xl:block 4xl:absolute 4xl:right-0 4xl:h-[90rem] 4xl:-bottom-[160rem] 
           5xl:bloxk 5xl:right-0 5xl:h-[1400px] 5xl:bottom-[calc(100%_-_245rem)] 
           "
@@ -100,13 +102,14 @@ const StartNow = (props: any) =>  {
           className={`
           hidden
           md:hidden
-          mxl:block mxl:absolute mxl:right-0 mxl:h-[34rem] mxl:-bottom-[109rem] 
-          mmxl:block mmxl:absolute mmxl:right-0 mmxl:h-[43rem] mmxl:bottom-[calc(100%_-_121em)] 
+          mxl:block mxl:absolute mxl:right-0 mxl:h-[34rem] mxl:bottom-[calc(100%_-_134em)] 
+          mmxl:block mmxl:absolute mmxl:right-0 mmxl:h-[43rem] mmxl:bottom-[calc(100%_-_123em)] 
           lg:block lg:absolute lg:right-0 lg:h-[43rem] lg:-bottom-[110rem] 
-          xl:block xl:absolute xl:right-0 xl:h-[43rem] xl:bottom-[calc(100%_-_193rem)] 
-          xxl:block xxl:absolute xxl:right-0 xxl:h-[43rem] xxl:-bottom-[131rem] 
-          2xl:block 2xl:absolute 2xl:right-0 2xl:h-[43rem] 2xl:-bottom-[124rem] 
-          3xl:block 3xl:absolute 3xl:right-0 3xl:h-[60rem] 3xl:-bottom-[141rem] 
+          xl:block xl:absolute xl:right-0 xl:h-[43rem] xl:bottom-[calc(100%_-_179rem)] 
+          xxl:block xxl:absolute xxl:right-0 xxl:h-[43rem] xxl:bottom-[calc(100%_-_186.5rem)] 
+          2xl:block 2xl:absolute 2xl:right-0 2xl:h-[43rem] 2xl:bottom-[calc(100%_-_188.5rem)] 
+          3xl:block 3xl:absolute 3xl:right-0 3xl:h-[55rem] 3xl:bottom-[calc(100%_-_208rem)] 
+          3xxl:block 3xxl:absolute 3xxl:right-0 3xxl:h-[55rem] 3xxl:bottom-[calc(100%_-_202rem)]
           4xl:block 4xl:absolute 4xl:right-0 4xl:h-[60rem] 4xl:-bottom-[150rem] 
           5xl:absolute 5xl:right-0 5xl:h-[1000px] 5xl:bottom-[calc(100%_-_238rem)] 
           `}

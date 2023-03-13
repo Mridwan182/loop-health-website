@@ -52,7 +52,7 @@ const Hero = (props: any) =>  {
               id="hero"
               className="lg:h-[85%] 
               lg:w-[100%] 
-              xl:h-[42rem] 
+              xl:h-[44rem] 
               xl:w-[44rem] 
               xl:top-[2rem]
               xl:right-[4rem]
@@ -67,11 +67,11 @@ const Hero = (props: any) =>  {
               3xl:right-24 text-center
               mmxl:absolute
               mmxl:w-[38rem]
-              mmxl:h-[36rem]
+              mmxl:h-[38rem]
               mmxl:top-[4rem]
               mxl:absolute
               mxl:w-[34rem]
-              mxl:h-[32rem]
+              mxl:h-[34rem]
               mxl:top-[4rem]
               mxl:right-[1.8rem]
               " 

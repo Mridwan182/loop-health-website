@@ -324,12 +324,13 @@ const JourneyAbout = (props: any) =>  {
           mxl:block
           mmxl:block
           lg:absolute lg:right-0 lg:h-[60rem] lg:-bottom-[123rem] 
-          xl:absolute xl:right-0 xl:h-[calc(100%_+_8rem)] xl:bottom-[calc(100%_-_178rem)] 
+          xl:absolute xl:right-0 xl:h-[calc(100vh_-_15rem)] xl:bottom-[calc(100%_-_178rem)] 
           mxl:absolute mxl:right-0 mxl:h-[calc(100%_-_10rem)] mxl:bottom-[calc(100%_-_172rem)] 
           mmxl:absolute mmxl:right-0 mmxl:h-[65rem] mmxl:bottom-[calc(100%_-_150rem)] 
           xxl:absolute xxl:right-0 xxl:h-[65rem] xxl:bottom-[calc(100%_-_185rem)] 
           2xl:absolute 2xl:right-0 2xl:h-[1550px] 2xl:-bottom-[105rem] 
           3xl:absolute 3xl:right-0 3xl:h-[1550px] 3xl:-bottom-[115rem] 
+          3xxl:absolute 3xxl:right-0 3xxl:h-[70rem] 3xxl:bottom-[calc(100%_-_205rem)] 
           4xl:absolute 4xl:right-0 4xl:h-[1550px] 4xl:-bottom-[130rem] 
           5xl:right-0 5xl:h-[1600px] 5xl:-bottom-[140rem] 
           "
