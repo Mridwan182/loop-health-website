@@ -1,6 +1,6 @@
-import * as React from "react"
+import * as React from 'react';
 
-const MonitoringIcon = (props : any) => (
+const MonitoringIcon = (props: any) => (
   <svg
     width={71}
     height={71}
@@ -20,6 +20,6 @@ const MonitoringIcon = (props : any) => (
       </clipPath>
     </defs>
   </svg>
-)
+);
 
-export default MonitoringIcon
+export default MonitoringIcon;

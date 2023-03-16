@@ -1,4 +1,4 @@
-import * as React from "react"
+import * as React from 'react';
 
 const CoachingIcon = (props: any) => (
   <svg
@@ -20,6 +20,6 @@ const CoachingIcon = (props: any) => (
       </clipPath>
     </defs>
   </svg>
-)
+);
 
-export default CoachingIcon
+export default CoachingIcon;

@@ -14,7 +14,7 @@
 
 @media (min-width: 1600px) { 
   #journey .slick-dots {
-    top: 525px
+    top: calc(100% + 3rem)
   }
 
   #journey .slick-dots li {
@@ -23,7 +23,7 @@
     }
 
     #journey-about .slick-dots {
-      top: 32rem;
+      top: calc(100% + 3rem)
     }
   
     #journey-about .slick-dots li {
@@ -67,7 +67,7 @@
   }
 
   #journey-about .slick-dots {
-    top: 33rem;
+    top: calc(100% + 3rem)
   }
   
 }
@@ -85,7 +85,7 @@
   }
 
   #journey-about .slick-dots {
-    top: 51rem;
+    top: calc(100% + 3rem)
   }
 }
 
@@ -97,7 +97,9 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
   /* CSS */
-  
+  #journey-about .slick-dots {
+    top: calc(100% + 3rem)
+  }
 }
 
 /* 
@@ -113,7 +115,7 @@
   }
 
   #journey-about .slick-dots {
-    top: 26.5rem;
+    top: calc(100% + 3rem)
   }
 }
 
@@ -131,7 +133,7 @@
   }
 
   #journey-about .slick-dots {
-    top: 24.5rem;
+    top: calc(100% + 3rem)
   }
   
   

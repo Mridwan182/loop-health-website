@@ -1,17 +1,14 @@
-
-
-
-interface HeaderProps  {
-    title?: string;
+interface HeaderProps {
+  title?: string;
 }
 
-const HeaderPanel = ({title} : HeaderProps) => (
+const HeaderPanel = ({ title }: HeaderProps) => (
   <div className="bg-lightblue-200">
-    <div className="mx-auto flex py-3 lg:px-24 md:px-16 sm:px-8 px-8 items-center justify-between lg:justify-start">
-        <h2 className="my-5 text-4xl text-darkblue-100 font-normal">
-          <span className="font-bold text-darkblue-100">{title}</span>
-          <hr className="h-px my-6 mx-2 bg-darkblue-100 border-darkblue-100 dark:bg-darkblue-100 border-2 w-3/6"/>
-        </h2>
+    <div className="mx-auto flex items-center justify-between py-3 px-8 sm:px-8 md:px-16 lg:justify-start lg:px-24">
+      <h2 className="my-5 text-4xl font-normal text-darkblue-100">
+        <span className="font-bold text-darkblue-100">{title}</span>
+        <hr className="my-6 mx-2 h-px w-3/6 border-2 border-darkblue-100 bg-darkblue-100 dark:bg-darkblue-100" />
+      </h2>
     </div>
   </div>
 );

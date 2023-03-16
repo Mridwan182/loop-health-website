@@ -1,4 +1,4 @@
-import * as React from "react"
+import * as React from 'react';
 
 const ContentIcon = (props: any) => (
   <svg
@@ -18,6 +18,6 @@ const ContentIcon = (props: any) => (
       fill="#fff"
     />
   </svg>
-)
+);
 
-export default ContentIcon
+export default ContentIcon;
