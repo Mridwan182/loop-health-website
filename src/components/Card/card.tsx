@@ -35,7 +35,7 @@ const CardFeature = ({ description, title, icon, color }: CardFeatureProps) => {
         {title}
       </h5>
       <hr className={`my-2 w-2/6 border-2 ${colorBorder[color]}`} />
-      <p className="mt-5 text-left text-[18px] leading-7 ssm:text-[1.3rem] md:text-[1.4rem] mxl:text-[1rem] mxl:leading-6 mmxl:text-[0.85rem] mmxl:leading-normal xl:text-[1.1rem] 4xl:leading-10">
+      <p className="mt-5 text-left text-[18px] leading-7 ssm:text-[1.3rem] md:text-[1.4rem] lg:text-[1rem] mxl:text-[1rem] mxl:leading-6 mmxl:text-[0.85rem] mmxl:leading-normal xl:text-[1.1rem] 4xl:leading-10">
         {description}
       </p>
     </div>

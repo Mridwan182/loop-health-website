@@ -72,7 +72,7 @@ const JourneyAbout = () => {
       </div>
       <div className="grid lg:grid-cols-2 gap-4 ">
           <div className="px-8 md:px-16 lg:pl-10 mxl:px-12 order-2 lg:order-1 xl:pl-24 3xl:pl-24">
-                <h2 className="my-5 text-4xl font-normal text-darkblue-100 md:text-5xl lg:text-3xl xl:text-4xl mxl:text-[calc(5vh_-_1.5rem)] mmxl:my-0 mmxl:text-5xl xl:my-5 5xl:text-6xl">
+                <h2 className="my-5 text-4xl font-normal text-darkblue-100 md:text-5xl lg:text-3xl xl:text-4xl mxl:text-[calc(5.5vw_-_1.5rem)] mmxl:my-0 mmxl:text-5xl xl:my-5 5xl:text-6xl">
                   Tentang {' '}
                   <span className="font-bold text-darkblue-100">
                    Loop
@@ -117,6 +117,8 @@ const JourneyAbout = () => {
                 md:top-0
                 3xl:top-0
                 right-0
+                mxl:w-[40rem]
+                mxll:w-[55%]
                 w-[55%]
                 "
                 style={{zIndex: -1}}
@@ -129,10 +131,34 @@ const JourneyAbout = () => {
                         md:px-8
                         py-1
                         mb-2
-                        md:mb-6
+                        mmmxl:mb-8
                         rounded-lg
+                        xxxs:top-[calc(100vw_-_4em)]
+                        xxs:top-[calc(100vw_-_4em)]
+                        xs:top-[calc(100vw_-_5.5em)]
+                        xss:top-[calc(100vw_-_6.5em)]
+                        smm:top-[calc(100vw_-_9em)] 
+                        smmm:top-[calc(100vw_-_10em)] 
+                        mxl:top-[calc(100vw_-_32.5em)]
+                        mxll:top-[calc(100vw_-_39em)]
+                        ssm:top-[calc(100vw_-_15em)]       
+                        xsm:top-[calc(100vw_-_12em)]
+                        xsssm:top-[calc(100vw_-_17rem)]
+                        xssm:top-[calc(100vw_-_17rem)]
+                        md:top-[calc(100vw_-_17em)]
+                        mmd:top-[calc(100vw_-_18em)]
+                        mmmxl:top-[calc(100vw_-_49em)]
+                        mmxl:top-[calc(100vw_-_45em)]
+                        lg:top-[calc(100vw_-_28em)]
+                        xl:top-[calc(100vw_-_50em)]
+                        xlg:top-[calc(100vw_-_30em)]
+                        xxl:top-[calc(100vw_-_57em)]
+                        3mxl:top-[calc(100vw_-_65em)]
+                        3xxl:top-[calc(100vw_-_70em)]
+                        3xxxl:top-[calc(100vw_-_100em)]
+                        4xl:top-[calc(100vw_-_95em)]
                       ">
-                        <div className="my-1 text-base font-semibold text-[#27275D] md:text-[1.5rem]">
+                        <div className="my-1 text-base font-semibold text-[#27275D] md:text-[1.5rem] lg:text-[1rem] 3xxxl:text-[2rem]">
                                 Health Coach
                         </div>
                   </div>
@@ -145,7 +171,7 @@ const JourneyAbout = () => {
       <div className="mx-auto mt-5 mb-[4em] px-8 pt-12 sm:px-8 md:px-16 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:px-10 xl:pl-24 3xl:pl-24 xl:mt-16 mxl:mt-20 mxl:mb-[2em]">
         {/* Left Column */}
         <div className="mb-3">
-          <h2 className="mb-5 text-4xl font-normal text-darkblue-100 md:text-5xl lg:text-3xl xl:text-4xl mxl:text-[calc(5vh_-_1.5rem)] mmxl:my-0 mmxl:text-5xl xl:my-5 5xl:text-6xl">
+          <h2 className="mb-5 text-4xl font-normal text-darkblue-100 md:text-5xl lg:text-3xl xl:text-4xl mxl:text-[calc(5.5vw_-_1.5rem)] mmxl:my-0 mmxl:text-5xl xl:my-5 5xl:text-6xl">
             Kami Memfasilitasi <br /> Konsultasi Bersama <br />
             <span className="font-bold text-darkblue-100">
               Coach Bersertifikat
@@ -283,10 +309,10 @@ const JourneyAbout = () => {
           </div>
         </div>
       </div>
-      <div className="mx-auto mb-3 grid grid-cols-1 lg:grid-cols-2 gap-4 px-0 pt-12 lg:px-10 xl:pl-24 3xl:pl-24 mb-[calc(100vw_+_8rem)] md:mb-[calc(150%_-_20em)] lg:mb-3">
+      <div className="mx-auto mb-3 grid grid-cols-1 lg:grid-cols-2 gap-4 px-0 pt-12 lg:px-10 xl:pl-24 3xl:pl-24 mb-[calc(100vw_+_8rem)] md:mb-[calc(150%_-_8em)] lg:mb-3">
         {/* Left Column */}
         <div className="mb-3  px-8 md:mb-12 md:px-12 lg:mb-0 lg:mt-28 lg:px-0 lg:text-left">
-          <h2 className="my-5 text-4xl font-normal text-darkblue-100 md:text-5xl lg:text-3xl xl:text-4xl mmxl:-mt-[3rem] xl:-mt-[0rem]">
+        <h2 className="my-5 text-4xl font-normal text-darkblue-100 md:text-5xl lg:text-3xl xl:text-4xl mxl:text-[calc(5.5vw_-_1.5rem)] mmxl:my-0 mmxl:text-5xl xl:my-5 5xl:text-6xl">
             Menuju{' '}
             <span className="font-bold text-darkblue-100">
               Perubahan Positif <br className="hidden mxl:block" />
@@ -322,7 +348,7 @@ const JourneyAbout = () => {
           lg:absolute
           lg:right-0
           lg:bottom-[calc(100%_-_130rem)] lg:h-[50rem] mxl:absolute mxl:right-0 
-          mxl:bottom-[calc(100%_-_135rem)] mxl:block mxl:h-[calc(100vw_-_10rem)] mmxl:absolute 
+          mxl:bottom-[calc(100%_-_140rem)] mxl:block mxl:h-[calc(100vw_-_10rem)] mmxl:absolute 
           mmxl:right-0 mmxl:bottom-[calc(100%_-_130rem)] mmxl:block mmxl:h-[calc(100vw_-_25rem)]
           mmmxl:right-0  mmmxl:bottom-[calc(100%_-_130rem)]  mmmxl:block mmmxl:h-[50rem] 
           xl:absolute xl:right-0 xl:bottom-[calc(100%_-_150rem)] xl:h-[calc(100vw_-_30rem)] 
@@ -330,7 +356,7 @@ const JourneyAbout = () => {
           xxl:absolute xxl:right-0 xxl:bottom-[calc(100%_-_150rem)] xxl:h-[60rem] 
           3xl:absolute 3xl:right-0 3xl:bottom-[calc(100%_-_155rem)] 3xl:h-[70rem] 
           3xxl:absolute 3xxl:right-0 3xxl:bottom-[calc(100%_-_160rem)] 3xxl:h-[70rem] 
-          3xxxl:absolute 3xxxl:right-0 3xxxl:bottom-[calc(100%_-_100rem)] 3xxxl:h-[70rem] 
+          3xxxl:absolute 3xxxl:right-0 3xxxl:bottom-[calc(100%_-_180rem)] 3xxxl:h-[70rem] 
           4xl:absolute 4xl:right-0 4xl:bottom-[calc(100vw_-_215rem)]  4xl:h-[80rem] 
           5xl:right-0 5xl:bottom-[calc(100%_-_190rem)] 5xl:h-[70rem]
           "
@@ -359,14 +385,9 @@ const JourneyAbout = () => {
           <img
             id="hero"
             className="
-          -mb-[9rem]
           absolute
-          sm:h-[calc(100vw_+_10rem)]
-          sm:w-[calc(100vw_-_0rem)]
-          ssm:h-[100%] ssm:w-[100%]
+          w-[100%]
           md:block
-          md:w-[calc(100vw_-_0rem)]
-          md:h-[calc(100vw_+_10rem)]
           lg:hidden
           mxl:hidden
           xl:hidden

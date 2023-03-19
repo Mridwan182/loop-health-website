@@ -81,7 +81,7 @@
   
   /* CSS */
   #journey .slick-dots {
-    top: 53rem;
+    top: calc(100% + 3rem)
   }
 
   #journey-about .slick-dots {
@@ -97,6 +97,11 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
   /* CSS */
+
+  #journey .slick-dots {
+    top: calc(100% + 3rem)
+  }
+
   #journey-about .slick-dots {
     top: calc(100% + 3rem)
   }
@@ -111,7 +116,7 @@
   
   /* CSS */
   #journey .slick-dots {
-    top: 50rem;
+    top: calc(100% + 3rem)
   }
 
   #journey-about .slick-dots {
@@ -129,7 +134,22 @@
   /* CSS */
 
   #journey .slick-dots {
-    top: 48rem;
+    top: calc(100% + 3rem)
+  }
+
+  #journey-about .slick-dots {
+    top: calc(100% + 3rem)
+  }
+  
+  
+}
+
+@media (max-width: 320px) {
+  
+  /* CSS */
+
+  #journey .slick-dots {
+    top: calc(100% + 3rem)
   }
 
   #journey-about .slick-dots {

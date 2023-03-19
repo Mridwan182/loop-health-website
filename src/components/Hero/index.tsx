@@ -5,7 +5,7 @@ const Hero = () => {
 
   return (
     <div>
-      <div className="mx-auto flex flex-col px-8 pt-12 pb-16 sm:px-8 md:px-16 lg:flex-row lg:px-24 lg:pb-20 mxl:px-12 mmxl:px-24">
+      <div className="mx-auto flex flex-col px-8 pt-12 pb-16 sm:px-8 md:px-16 lg:flex-row lg:px-10 lg:pb-20 mxl:px-12 mmxl:px-24">
         {/* Left Column */}
 
         <div className="flex w-full justify-center pr-0 text-center md:hidden lg:w-1/2">
@@ -20,17 +20,17 @@ const Hero = () => {
           </div>
         </div>
         <div className="mb-3 mt-10 flex flex-col text-left md:mb-12 md:mt-0 lg:mb-0 lg:w-1/2  lg:grow lg:items-start lg:text-left ">
-          <h2 className="text-my-5 text-4xl font-normal text-darkblue-100 ssm:text-5xl md:text-5xl lg:text-5xl mxl:text-3xl mmxl:text-4xl">
-            <span className="font-bold text-darkblue-100">Your</span> Everyday
+          <h2 className="text-my-5 text-4xl font-normal text-darkblue-100 ssm:text-5xl md:text-5xl lg:text-3xl xl:text-4xl mxl:text-3xl mmxl:text-4xl">
+            <span className="font-bold text-darkblue-100">Your</span> Everyday <br className="hidden mxl:block mmxl:hidden"/>
             Diabetes <span className="font-bold text-darkblue-100">Coach</span>
           </h2>
-          <hr className="m-2 h-px w-1/6 border-2 border-darkblue-100 bg-darkblue-100 dark:bg-darkblue-100 md:my-10 md:mx-4 mxl:my-4 mxl:mx-2" />
+          <hr className="m-2 h-px w-1/6 border-2 border-darkblue-100 bg-darkblue-100 dark:bg-darkblue-100 md:my-10 lg:my-4 md:mx-4 mxl:my-4 mxl:mx-2" />
           <p
             className="small-text 
         mmxl:mr-30
         mb-8
         mt-4 text-[1.3rem] font-light leading-8 text-black sm:text-xs ssm:text-[1.5rem] md:mr-12
-        md:text-[1.4rem] lg:mr-12 lg:text-2xl lg:leading-9 mxl:text-[1rem] mxl:leading-6 mmxl:text-[1rem] mmxl:leading-7 xl:mr-28 xl:w-[80%] xl:pr-6 xl:text-[1.4rem] 3xl:pr-[10rem] 3xl:text-2xl 3xl:leading-10"
+        md:text-[1.4rem] lg:text-base lg:leading-6 mxl:text-[1rem] mxl:leading-6 mmxl:text-[1rem] mmxl:leading-7 xl:mr-28 xl:w-[80%] xl:pr-6 xl:text-[1.4rem] 3xl:pr-[10rem] 3xl:text-2xl 3xl:leading-10"
           >
             Di Loop, kami percaya dalam memberikan kekuatan kepada orang untuk
             membuat perubahan positif yang berlangsung lama dalam kesehatan
