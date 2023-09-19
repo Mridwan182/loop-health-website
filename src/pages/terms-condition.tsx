@@ -145,9 +145,9 @@ const TermsCondition = () => (
               a. Anda menyatakan dan menjamin bahwa Anda adalah individu yang
               memiliki hak untuk mengadakan perjanjian yang mengikat berdasarkan
               hukum Negara Republik Indonesia dan bahwa Anda telah berusia
-              minimal 21 (dua puluh satu) tahun atau sudah menikah dan tidak
+              minimal 18 (delapan belas) tahun atau sudah menikah dan tidak
               berada di bawah perwalian atau pengampuan. Jika Anda berusia di
-              bawah 21 (dua puluh satu) tahun dan belum menikah, Anda menyatakan
+              bawah 18 (delapan belas) tahun dan belum menikah, Anda menyatakan
               dan menjamin bahwa Anda telah memperoleh izin dari orang tua atau
               wali hukum Anda, kecuali Anda menyatakan sebaliknya. Dengan
               memberikan persetujuan, orang tua atau wali hukum Anda setuju
