@@ -326,7 +326,7 @@ const About = () => (
                   </ol>
                 </li>
                 <li>
-                  g.Pengiriman dan Penyimpanan f. Pengungkapan Informasi
+                  g.Pengiriman dan Penyimpanan
                   <ol className="list-inside list-none space-y-1 pl-5 font-light">
                     <li>
                       Semua data dan informasi Anda disimpan di peladen (server)
