@@ -349,6 +349,20 @@ const About = () => (
                     </li>
                   </ol>
                 </li>
+                <li>
+                  h.Penghapusan Akun dan Data
+                  <ol className="list-inside list-none space-y-1 pl-5 font-light">
+                    <li>
+                      Anda dapat melakukan penghapusan akun pada aplikasi Loop Health
+                      yang meliputi semua penghapusan informasi data diri, data kesehatan,
+                      dan juga alamat Anda dengan melakukan penghapusan akun anda pada 
+                      aplikasi Loop Healt di halaman permintaan hapus akun. Setelah
+                      Anda memberikan konfirmasi penghapusan akun maka semua data yang
+                      telah Anda masukkan di aplikasi Loop akan terhapus dari database kami
+                      dan tidak dapat diakses kembali.
+                    </li>
+                  </ol>
+                </li>
               </ol>
             </li>
           </ol>
